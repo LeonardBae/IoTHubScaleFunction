@@ -24,14 +24,14 @@ namespace IotHubScale
         // hard coded for the sample.  For production, look at something like KeyVault for storing secrets
         // more info here-> https://blogs.msdn.microsoft.com/dotnet/2016/10/03/storing-and-using-secrets-in-azure/
         const double JobFrequencyMinutes = 10;
-        static string ApplicationId = "16402570-c16a-49f6-81de-6278b571b25b";
-        static string SubscriptionId = "668a2005-a0e8-4fdf-bba7-e1d6b3070c46";
-        static string TenantId = "9eac23c9-656c-4bce-823e-3f91bedc50ee";
-        static string ApplicationPassword = "p3rj-n11I0XZ-VamKLlYq~lc7Gs-NyAga~";
-        static string ResourceGroupName = "JHIoTTEST-RG";
-        static string IotHubName = "JHIoTTEST-hub";
+        static string ApplicationId = "===insert your appid===";
+        static string SubscriptionId = "===insert your subscriptionid===";
+        static string TenantId = "===insert your tenantid===";
+        static string ApplicationPassword = "===insert your apppassword===";
+        static string ResourceGroupName = "===insert your resourcegroup===";
+        static string IotHubName = "===insert your iothub===";
         static int ThresholdPercentage = 1;
-        static string SendGridAPIKey = "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";
+        static string SendGridAPIKey = "===insert your sendgridapikey===";
 
         // "launcher" function.  runs periodically on timer trigger and just makes sure one (and only one)
         // instance of the orchestrator is running
